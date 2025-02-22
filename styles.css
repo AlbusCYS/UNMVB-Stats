@@ -62,10 +62,12 @@ hr {
     width: 100%;
 }
 .player-header img {
-    width: 75px;
-    height: 75px;
+    width: 100px; /* Default size */
+    height: 100px;
+    max-width: 100%; /* Ensures it doesn’t overflow */
     border-radius: 50%;
     border: 3px solid #00A6FB;
+    object-fit: cover; /* Keeps the image from distorting */
 }
 .player-info {
     text-align: left;
