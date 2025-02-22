@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "radar",
             data: {
                 labels: [
-                    "Attack", "Block", "Serve", "Defense", "Reception", "Set", "Stamina"
+                    "Spike", "Receive", "Set", "Serve", "Block",
                 ],
                 datasets: [{
                     label: "Performance",
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Apply updated radar chart to both players
-    createRadarChart("chart1", [8, 6, 7, 9, 8, 10, 7]); // Yamamoto Stats (out of 10)
-    createRadarChart("chart2", [9, 7, 8, 6, 9, 6, 8]); // Nishida Stats (out of 10)
-    createRadarChart("chart3", [10, 10, 10, 10, 10, 10, 10]); // Nishida Stats (out of 10)
+    createRadarChart("chart1", [8, 3, 4, 6, 7]); // Yamamoto Stats (out of 10)
+    createRadarChart("chart2", [10, 10, 10, 10, 10]); // Nishida Stats (out of 10)
+    createRadarChart("chart3", [10, 10, 10, 10, 10]); // Nishida Stats (out of 10)
 });
