@@ -53,7 +53,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Apply updated radar chart to both players
-    createRadarChart("chart1", [8, 3, 4, 6, 7]); // Yamamoto Stats (out of 10)
-    createRadarChart("chart2", [10, 10, 10, 10, 10]); // Nishida Stats (out of 10)
-    createRadarChart("chart3", [10, 10, 10, 10, 10]); // Nishida Stats (out of 10)
+    createRadarChart("chart1", [10, 10, 10, 10, 10]); 
+    createRadarChart("chart2", [10, 10, 10, 10, 10]); 
+    createRadarChart("chart3", [10, 10, 10, 10, 10]); 
+    createRadarChart("chart4", [10, 10, 10, 10, 10]); 
+    createRadarChart("chart5", [10, 10, 10, 10, 10]); 
+    createRadarChart("chart6", [10, 10, 10, 10, 10]); 
+    createRadarChart("chart7", [10, 10, 10, 10, 10]); 
+    createRadarChart("chart8", [10, 10, 10, 10, 10]);  
 });
